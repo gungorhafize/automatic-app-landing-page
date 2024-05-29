@@ -129,7 +129,7 @@ sass:
   style: :compressed # You might prefer to minify using :compressed
 
 # Exclude these files from your production _site
-exclude:
+exclude: [vendor]
   - LICENSE
   - README.md
   - CNAME
